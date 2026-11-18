@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Bases de données locales (au cas où)
+*.sqlite
+*.sqlite3
+*.db
